@@ -1,7 +1,78 @@
-* {margin: 0; padding: 0; border: 0;}
 body {
-  margin: 20px;
+	background-color: #eeeeee;
+	font-family: 'Josefin Sans', sans-serif;
 }
-summary {
-  font-size: 35px;
+	header {
+		margin: 5vh 5vw;
+		padding: 1vw;
+		text-align: center;
+		border-radius: 1vh;
+		background-color: #ffffff;
+		box-shadow: 0 0 10px 5px #aaaaaa;
+	}
+	section {
+		margin: 0 auto;
+		padding: 10px 0;
+		width: 60vw;
+		font-size: 4vh;
+		text-align: center;
+	}
+		section>p {
+			font-size: 3vh;
+			text-align: justify;
+		}
+	footer {
+		margin: 5vh 5vw;
+		padding: 1vw;
+		text-align: center;
+		border-radius: 1vh;
+		background-color: #ffffff;
+		box-shadow: 0 0 10px 5px #aaaaaa;
+	}
+#mainContainer {
+	margin: 5vh 5vw;
+	border-radius: 1vh;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px 5px #aaaaaa;
+	position: relative;
 }
+	#image1 {
+		margin: 0 auto;
+		padding: 10vh 2vw;
+		width: 30vw;
+	}
+		#image1>img {
+			width: 30vw;
+			border-radius: 10px;
+			box-shadow: 0 0 10px 5px #aaaaaa;
+		}
+	#mainContainer>hr {
+		width: 70vw;
+	}
+	#about {
+		margin: 0 auto;
+		width: 60vw;
+		font-size: 3vh;
+		text-align: justify;
+	}
+		#about>h1 {
+			font-size: 10vh;
+			text-align: center;
+		}
+	#mainContainer>figure {
+		margin: 0 auto;
+		width: 60vw;
+		font-size: 2vh;
+		text-align: center;
+	}
+		#mainContainer>figure>img {
+			width: 60vw;
+			border-radius: 10px;
+		}
+	#testimonials {
+		padding: 15px;
+		/*background-color: #eeeeee;*/
+		border-radius: 10px;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		color: #333;
+	}
