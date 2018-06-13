@@ -8,7 +8,11 @@ html, body {
 	background-color: #ffecda;
 	color: #ffecda;
 	font-size: 10px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Poiret One', cursive;
+}
+hr {
+	margin-bottom: 2.5em;
+	border-top: 0.1em solid #ffecda;
 }
 #main, .footer {
 	margin: auto;
@@ -20,8 +24,8 @@ html, body {
 		margin: 0.2em 0 5em 0;
 	}
 		#title h1 {
-			margin-bottom: 0.55em;
-			font-size: 5em;
+			margin-bottom: 0.25em;
+			font-size: 5.5em;
 			letter-spacing: 0.05em;
 			text-align: center;
 			border-radius: 10px;
@@ -37,7 +41,7 @@ html, body {
 			}
 			#img-caption {
 				margin-top: 0.5em;
-				font-size: 1.55em;
+				font-size: 1.75em;
 				letter-spacing: 0.02em;
 				line-height: 1.4;
 				text-align: center;
@@ -46,16 +50,16 @@ html, body {
 		margin: 0.2em 0 5em 0;
 	}
 		#tribute-info section {
-			margin-top: 5.95em;
+			margin-top: 6.45em;
 		}
 			#tribute-info section h1 {
 				margin-bottom: 0.75em;
-				font-size: 2.95em;
+				font-size: 3.15em;
 				letter-spacing: 0.04em;
 			}
 			#tribute-info section p {
 				margin-bottom: 0.65em;
-				font-size: 1.55em;
+				font-size: 1.65em;
 				line-height: 1.5;
 				letter-spacing: 0.04em;
 			}
