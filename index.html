@@ -3,59 +3,63 @@
 <head>
   <title>Prem Rawat</title>
 
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Prem Rawat</h1>
-    <h2>The man who has dedicated his whole life for peace</h2>
-  </header>
-  <div id="mainContainer">
-    <div id="image1">
-      <img src="https://www.premrawat.com/wp-content/uploads/2016/10/3-Lisbon-City-Hall-1024x576.jpg" alt="Prem Rawat speaking in Lisbon City Hall">
+  <!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+  <div id="main">
+    <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+    <div id="title">
+      <h1>Prem Rawat</h1>
+      <!-- User Story #3: I should see a div element with a corresponding id="img-div". -->
+      <div id="img-div">
+        <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image". -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Maharaji_United_Nations_Anniversary.jpg" alt="Image of Prem Rawat" id="image">
+        <!-- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div. -->
+        <div id="img-caption">The man who has dedicated his whole life for peace</div>
+      </div>
     </div>
-    <hr>
-    <section id="about">
-      <h1>About Prem Rawat</h1>
-      <p>Prem Rawat also known as Maharaji  began speaking about peace at very young age. As a child, he astounded and delighted audiences with his wisdom and clarity.</p>
-      <p>At the age of thirteen, his message of peace had reached beyond his native India, and he was invited for the first time to travel to the West. This was the beginning of over four decades of nearly non-stop travel throughout the world, touching the lives of millions of people as he spoke to audiences, both large and small. His message is simple yet profound and available in more than 90 countries and 70 languages.</p>
-      <p>Prem Rawat is a respected international speaker, attracting audiences from all walks of life. The honorary title <q>Ambassador of Peace</q> has been granted to him by a number of governmental and academic institutions because of his ability to inspire audiences to see personal peace as a possibility for everyone.</p>
-      <p>As a speaker, Prem  Rawat is both accessible and humorous, using stories, analogies, and even poetry to reach his diverse audience. At the same time he has an important message, that personal peace is a fundamental right for all.</p>
-      <p>He speaks from the heart, without script or rehearsal, bringing simplicity to important issues that people often find complex. His life's goal is to offer his message of peace to all seven billion of the world's population.</p>
-      <p>In pursuit of this goal, he maintains a challenging travel schedule, often flying over 100,000 nautical miles in a year. In 2012 alone he spoke to over 730,000 people at 102 live events worldwide. During that time, there were over a million downloads of his videos. He receives no recompense for his speaking engagements.</P>
-      <p>In addition to speaking in front of intimate audiences and vast crowds-sometimes exceeding 300,000 in India- he has been invited to speak at a number of important institutional venues and forums. These include the European parliament, the United Nations  (UN), the Italian Senate, the Parliament of Australia, Argentina and New Zealand, the IIT Delhi, the Young Presidents' Organization, and the Guildhall in London, as well as numerous universities across the world .</p>
-    </section>
-    <figure>
-      <img src="https://www.premrawat.com/wp-content/uploads/2016/12/36-161207_Soweto_MeetGreet_nkm_060-1024x575.jpg" alt="Listening to peace education facilitators and students">
-      <figcaption>Listening to expressions from peace education facilitators and students before the main Soweto event</figcaption>
-    </figure>
-    <hr>
-    <section>
-      <h1>Honoured as the 'Ambassador of Peace'</h1>
-      <p>2006: Title first conferred by Pierre Weil, rector of the International University of Peace, UNIPAZ Florianopolis, Brazil</p>
-      <p>2007: Designated Ambassador of Peace for the Basilicata Region of Italy by the governor, and the City of Sondrio, Italy</p>
-      <p>2011: Appointed by Gianni Pittella MEP, 1st Vice President of the European Parliament, as "Ambassador for Peace" on behalf of the Brussels Declaration Pledge to Peace, signed at the European Parliament in 2011</p>
-      <p>2012: Acknowledgement as Brussels Declaration Ambassador of Peace, Italian Senate</p>
-      <p>2013: Acknowledgement as Ambassador of Peace, National Agrarian University, La Molina, Peru</p>
-    </section>
-    <section>
-      <h1>International Achievement Awards</h1>
-      <p>2006: Distinguished International Humanitarian Achievement Award by Mary Singletary, President of the National Council of Women, New York, New York</p>
-      <p>2012: Lifetime Achievement Award granted by Asia Pacific Brands Foundation, Kuala Lumpur, Malaysia</p>
-      <p>2013: Bharat Gaurav Award and Certificate awarded by India International Friendship Society, New Delhi, India</p>
-      <p>2015: Order for International Merit of Blood from International Federation of Blood Donor Organizations</p>
-    </section>
-    <hr>
-    <section id="testimonials">
-      <p><q>He is a man of such standard and excellence we cannot but help love that man for all that he has given to the world. Most importantly, he inspires, he impacts, and influences lives all over the world. The wonderful thing about this man is that this is the man for the 21st century. He has the message for the 21st century. We just thank him, 7 billion reasons to thank him for championing and supporting peace all over the world.</q></p>
-      <cite>Dr. KK. Johan, Chairman of the Brand Laureate organization</cite>
-    </section>
-  </div> <!-- mainContainer -->
-  <footer>
-    <p><strong>If you are looking for peace and wondering where to start from,<br> do consider listening to his <a href="https://www.youtube.com/watch?v=b6zd_ksQm3I" target="_blank">Message of Peace</a>.</strong></p>
-    <h6>Site compiled with love by <a href="https://amitkumarsarangi.github.io/" target="_blank">Amit Kumar Sarangi.</a></h6>
+    <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+    <main id="tribute-info">
+      <section>
+        <h1>About Prem Rawat</h1>
+        <p>Prem Rawat also known as Maharaji began speaking about peace at very young age. As a child, he astounded and delighted audiences with his wisdom and clarity.</p>
+        <p>At the age of thirteen, his message of peace had reached beyond his native India, and he was invited for the first time to travel to the West. This was the beginning of over four decades of nearly non-stop travel throughout the world, touching the lives of millions of people as he spoke to audiences, both large and small. His message is simple yet profound and available in more than 90 countries and 70 languages.</p>
+        <p>Prem Rawat is a respected international speaker, attracting audiences from all walks of life. The honorary title Ambassador of Peace has been granted to him by a number of governmental and academic institutions because of his ability to inspire audiences to see personal peace as a possibility for everyone.</p>
+        <p>As a speaker, Prem Rawat is both accessible and humorous, using stories, analogies, and even poetry to reach his diverse audience. At the same time he has an important message, that personal peace is a fundamental right for all.</p>
+        <p>He speaks from the heart, without script or rehearsal, bringing simplicity to important issues that people often find complex. His life's goal is to offer his message of peace to all seven billion of the world's population.</p>
+        <p>In pursuit of this goal, he maintains a challenging travel schedule, often flying over 100,000 nautical miles in a year. In 2012 alone he spoke to over 730,000 people at 102 live events worldwide. During that time, there were over a million downloads of his videos. He receives no recompense for his speaking engagements.</p>
+        <p>In addition to speaking in front of intimate audiences and vast crowds-sometimes exceeding 300,000 in India- he has been invited to speak at a number of important institutional venues and forums. These include the European parliament, the United Nations (UN), the Italian Senate, the Parliament of Australia, Argentina and New Zealand, the IIT Delhi, the Young Presidents' Organization, and the Guildhall in London, as well as numerous universities across the world .</p>
+      </section>
+      <section>
+        <h1>Honoured as the 'Ambassador of Peace'</h1>
+        <p>2006: Title first conferred by Pierre Weil, rector of the International University of Peace, UNIPAZ Florianopolis, Brazil</p>
+        <p>2007: Designated Ambassador of Peace for the Basilicata Region of Italy by the governor, and the City of Sondrio, Italy</p>
+        <p>2011: Appointed by Gianni Pittella MEP, 1st Vice President of the European Parliament, as "Ambassador for Peace" on behalf of the Brussels Declaration Pledge to Peace, signed at the European Parliament in 2011</p>
+        <p>2012: Acknowledgement as Brussels Declaration Ambassador of Peace, Italian Senate</p>
+        <p>2013: Acknowledgement as Ambassador of Peace, National Agrarian University, La Molina, Peru</p>
+      </section>
+      <section>
+        <h1>International Achievement Awards</h1>
+        <p>2006: Distinguished International Humanitarian Achievement Award by Mary Singletary, President of the National Council of Women, New York, New York</p>
+        <p>2012: Lifetime Achievement Award granted by Asia Pacific Brands Foundation, Kuala Lumpur, Malaysia</p>
+        <p>2013: Bharat Gaurav Award and Certificate awarded by India International Friendship Society, New Delhi, India</p>
+        <p>2015: Order for International Merit of Blood from International Federation of Blood Donor Organizations</p>
+      </section>
+      <blockquote>
+        <span>He is a man of such standard and excellence we cannot but help love that man for all that he has given to the world. Most importantly, he inspires, he impacts, and influences lives all over the world. The wonderful thing about this man is that this is the man for the 21st century. He has the message for the 21st century. We just thank him, 7 billion reasons to thank him for championing and supporting peace all over the world.</span>
+        <span><em>Dr. KK. Johan<br>Chairman of the Brand Laureate organization</em></span>
+      </blockquote>
+    </main>
+  </div>
+  <footer class="footer">
+    <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
+    <div>
+      If you are looking for peace and wondering where to start from, do consider listening to his <a href="https://www.youtube.com/watch?v=b6zd_ksQm3I" target="_blank" id="tribute-link">Message of Peace</a>.
+    </div>
   </footer>
 </body>
 </html>
